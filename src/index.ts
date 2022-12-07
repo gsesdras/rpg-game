@@ -2,7 +2,6 @@ import express, { Express, Request, Response } from 'express'
 import dotenv from 'dotenv'
 import http from 'http'
 import { Server } from 'socket.io'
-import { Socket } from 'engine.io'
 
 dotenv.config()
 
